@@ -7,7 +7,6 @@ import imutils
 from skimage.measure import structural_similarity as ssim
 
 objects = []
-
 threshold = 0.35
 
 hog = cv2.HOGDescriptor()
